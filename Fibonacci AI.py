@@ -130,7 +130,7 @@ else:
     # Add labels and legend
     plt.xlabel('Date')
     plt.ylabel('Price (USD)')
-    plt.title(stock_ticker + ' Fibonacci Price Prediction')
+    plt.title(stock_ticker.upper() + ' Fibonacci Price Prediction')
     plt.legend()
 
     # Show the plot
